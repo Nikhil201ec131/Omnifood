@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    background-color: #ffffff;
+    color: #555;
+    font-family:'Lato',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+
+}
+
+.row{
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)), url('img/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    
+}
+h1{
+   margin-bottom: 20px; 
+   
+   color: #fff;
+   font-size: 240%;
+   font-weight: 300;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   word-spacing: 3px;
+}
+
+.head-text-box{
+
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.btn{
+
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 300;
+    border-radius: 200px;
+    transition: background-color 0.3s,border 0.3s, color 0.3s;
+}
+
+.btn-full{
+    background-color: #e67e22;
+    color: #fff;
+    border: 1px solid #e67e22;
+    margin-right: 25px;
+    font-weight: 300;
+
+}
+.btn-ghost{
+    border: 1px solid #e67e22;
+    color:#e67e22;
+
+}
+
+
+.btn:hover,.btn:active{
+    background-color: #cf6d17;
+}
+
+.btn-ghost:hover,.btn-ghost:active{
+    background-color: #cf6d17;
+    color: #fff;
+}
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;   
+}
+.main-nav li {
+    display: inline-block;
+    margin-left: 20px;
+   
+}
+.main-nav li a{
+
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    padding: 2px;
+    border-bottom: 2px solid transparent;
+}
+
+.main-nav li a:hover{
+    border-bottom: 2px solid #e67e22;
+
+}
+
+.section-features{
+    padding: 80px 0px;
+}
+
+h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top:30px ;
+    letter-spacing: 1px;
+}
+
+.long-copy{
+    line-height: 145%;
+    width: 70%;
+    margin-left:15%;
+}
+.box{
+    padding: 1%;
+}
+h3{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+    
+}
+.icon-big{
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+
+}
+
+.items{
+    padding: 0;
+}
+.items-list{
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    
+}
+.items-list li {
+ 
+    display: block;
+    float: left;
+    width: 25%;
+    margin: 0;
+
+}
+.items-list li img{
+    width: 100%;
+    transform: scale(1.15);
+   
+}
+
+.items-list li img:hover{
+    width: 100%;
+    transform: scale(1.05);
+    
+}
+
+.box1{
+    
+   
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+   
+    text-align: center;
+    font-weight: bolder;
+    font-size: 80%;
+    
+}
+.break-pic{
+    height: 200px;
+    max-width: 200px;
+    width: auto;
+    
+}
+.break-pic:hover{
+    
+  transform: scale(1.2);
+  box-shadow: 0px 1px rgba(0, 0, 0, 0.726), 0 6px 20px 0 rgba(2, 2, 2, 0.998);
+      
+    
+}
+.break-style
+{
+    border-radius: 200px;
+    font-weight: 400;
+    border: 2px solid #e67e22;
+    margin-top: 25px;
+    color: #e67e22;
+    padding: 2px;
+    transition: 1.5s;
+    
+}
+.break-style:hover{
+
+    
+    box-shadow: 0 5px 50px 0 #e67e22 inset , 0 5px 50px 0 #e67e22,
+    0 5px 50px 0 #e67e22 inset , 0 5px 50px 0 #e67e22;
+    color: #fff;
+
+}
+.breakfast{
+   
+   margin: 0%;
+   padding-top: 2%;
+    
+}
+.section-steps{
+    padding: 20px;
+    background-color:antiquewhite
+}
+
+.down-img{
+    margin: 0 auto;
+    padding-right: 0;
+    
+    float: center;
+    width:50%;
+    align-items: center;
+}
+
+.steps{
+    padding: 30px;
+}
+.steps li{
+    line-height: 30px;
+    
+}
+
+.section-place{
+    padding: 50px;
+}
+
+.section-signup{
+   
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #e67e22;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #e5431e;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+  footer{
+    height: 200px;
+    margin-top: 100px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: #555;
+    color: #fff;
+  }
+
+  footer li{
+    list-style: none;
+    display: inline-block;
+    padding: 25px;
+    
+  }
+  .copyright{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top:50px;
+    font-weight: 100px;
+  }
+  @media only screen and (max-width: 1023px) {
+    
+    h1{
+        margin-bottom: 0px; 
+        
+        
+        font-size: 24px;
+        
+     }
+
+     .head-text-box{
+
+        position: ab;
+        width: 100%;
+        top: 50px;
+        left: 50px;
+        height: 1000px;
+        transform: translate(-13%,25%);
+    
+    }
+  }
+
+
+  
+
+
